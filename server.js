@@ -3,7 +3,7 @@ const app = express()
 const port = 8080
 
 app.get('/', (request, response) => {
-  response.send('Hello from Express!');
+  response.send('Andrei Muntean');
   console.log('Someone connected.\n');
 })
 
